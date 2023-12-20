@@ -18,6 +18,7 @@ public class QuizElement {
     public boolean isCorrect(String answer) {
         return correctAnswer.equalsIgnoreCase(answer);
     }
+    // Jeg endte ikke med at bruge denne methode.
 
 
     public String getQuestion() {
