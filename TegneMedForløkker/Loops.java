@@ -1,7 +1,7 @@
 package TegneMedForløkker;
 
 public class Loops {
-    TextUI ui = new TextUI();
+
     public void drawLeftTriangle(int line){
 
         for (int i = 1; i <= line; i++){
