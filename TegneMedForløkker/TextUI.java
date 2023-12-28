@@ -1,4 +1,4 @@
-package Interaktiv.quiz;
+package TegneMedForløkker;
 
 import java.util.Scanner;
 
@@ -11,11 +11,8 @@ public class TextUI {
     }
 
 
-
-    public void displayMsg (String msg){
+    public void displayMsg(String msg) {
         System.out.println(msg);
     }
-
-
-
 }
+
