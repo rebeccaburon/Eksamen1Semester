@@ -3,9 +3,6 @@ import java.util.ArrayList;
 import java.util.List;
 public class Main {
     public static void main(String[] args) {
-        Teacher teacher = new Teacher();
-        TextUI ui = new TextUI();
-
 
 
         String inputText = "Katrine trak sit spørgsmål kl. 10. Her fik Katrine  karakteren 7.\nAnders trak sit spørgsmål kl. 11. Her fik Anders karakteren 4";
