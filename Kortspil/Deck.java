@@ -20,6 +20,13 @@ public class Deck {
         Collections.shuffle(cards);
     }
 
+    public Card drawCard() {
+        if (cards.isEmpty()) {
+            return null; // Deck is empty
+        }
+        Card drawnCard = cards.remove(0);
+        return drawnCard;
+    }
 
     private void shuffle() {
         Collections.shuffle(cards);
