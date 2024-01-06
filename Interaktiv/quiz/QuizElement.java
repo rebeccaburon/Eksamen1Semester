@@ -7,6 +7,7 @@ public class QuizElement {
     private ArrayList<String> wrongAnswers;
 
 
+    // attributter i parameterne for at simplegøre oprettelsen af objekter som skal indebære i et QuiZElement
     public QuizElement(String question, String correctAnswer, ArrayList<String> wrongAnswers) {
         this.question = question;
         this.correctAnswer = correctAnswer;
@@ -15,11 +16,11 @@ public class QuizElement {
     }
 
 
-    public boolean isCorrect(String answer) {
+   /* public boolean isCorrect(String answer) {
         return correctAnswer.equalsIgnoreCase(answer);
     }
     // Jeg endte ikke med at bruge denne methode.
-
+*/
 
     public String getQuestion() {
         return question;
