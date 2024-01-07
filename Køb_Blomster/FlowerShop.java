@@ -60,8 +60,7 @@ public class FlowerShop {
             System.out.println(flower);
         }
 
-        String choice = ui.getInput("Would you like the flowers arranged into a bouquet? It costs 50DKK extra\nPress Y for 'Yes' and N for 'No.' ");
-
+        String choice;
         do {
             choice = ui.getInput("Would you like the flowers arranged into a bouquet? It costs 50DKK extra\nPress Y for 'Yes' and N for 'No.' ");
 
