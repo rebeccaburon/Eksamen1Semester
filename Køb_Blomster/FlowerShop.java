@@ -24,12 +24,6 @@ public class FlowerShop {
         total = 0;
     }
 
-    public void displayFlowerList() {
-        System.out.println("Flowers List:");
-        for (int i = 0; i < flowers.size(); i++) {
-            System.out.println((i + 1) + ". " + flowers.get(i));
-        }
-    }
 
     public void runDialog() {
         ui.displayMsg("This is a list of the flowers in my shop");
@@ -74,7 +68,12 @@ public class FlowerShop {
         } while (!choice.equalsIgnoreCase("Y") && !choice.equalsIgnoreCase("N")) ;
 
     }
-
+    public void displayFlowerList() {
+        System.out.println("Flowers List:");
+        for (int i = 0; i < flowers.size(); i++) {
+            System.out.println((i + 1) + ". " + flowers.get(i));
+        }
+    }
 
     private void updateTotalPrice(int choice) {
         if (choice >= 1 && choice <= 4) {
