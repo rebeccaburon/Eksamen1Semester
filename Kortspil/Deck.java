@@ -12,6 +12,7 @@ public class Deck {
         cards = new ArrayList<>();
         String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
         for (String suit : suits) {
+            //4 kulør/suits *13 rækker
             for (int ranks = 1; ranks <= 13; ranks++) {
                 cards.add(new Card(ranks, suit));
             }

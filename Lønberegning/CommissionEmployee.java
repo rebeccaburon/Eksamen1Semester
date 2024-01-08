@@ -13,6 +13,7 @@ public class CommissionEmployee extends Employee{
     }
     @Override
     public double calculateSalary() {
+        //Lønberegning er grundløn plus provision af medarbejderens salg.
         return baseSalary + (sale * commissionPercentage / 100);
 
     }

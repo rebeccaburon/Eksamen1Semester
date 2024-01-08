@@ -6,11 +6,12 @@ public class Card {
     private String suit;
 
     public Card(int rank, String suit) {
-        this.rank = rank;
-        this.suit = suit;
+        this.rank = rank; //værdi
+        this.suit = suit; //kulør
     }
 
     public String toString() {
+        //til at få Ace, Jack, Queen og King tildelt en String værdi.
         String ranks;
         switch (rank) {
 

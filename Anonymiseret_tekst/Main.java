@@ -13,7 +13,7 @@ public class Main {
         studentNames.add("Katrine");
         studentNames.add("Joakim");
 
-        boolean isTeacherView = true; //skift til false hvis der skal stå den studerende
+        boolean isTeacherView = false; //skift til false hvis der skal stå den studerende
 
         String anonymizedText = StringHandler.replaceText(inputText, studentNames, isTeacherView);
         System.out.println(anonymizedText);
