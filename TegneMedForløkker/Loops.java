@@ -1,7 +1,7 @@
 package TegneMedForløkker;
 
 public class Loops {
-
+//nester for-løkker
     public void drawLeftTriangle(int line) {
 // antallet af rækker i trekanten
         for (int i = 1; i <= line; i++) {
